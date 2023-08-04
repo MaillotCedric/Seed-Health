@@ -1,0 +1,10 @@
+services:
+    back:
+        build: ./Hell
+        ports: 
+            - 8000:8000
+
+    front:
+        build: ./Heaven
+        ports: 
+            - 5173:80
